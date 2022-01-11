@@ -356,14 +356,15 @@ const (
 const DefaultErrno = EIO
 
 var errnoNames = map[Errno]string{
-	ENOSYS: "ENOSYS",
-	ESTALE: "ESTALE",
-	ENOENT: "ENOENT",
-	EIO:    "EIO",
-	EPERM:  "EPERM",
-	EINTR:  "EINTR",
-	EEXIST: "EEXIST",
-	EXDEV:  "EXDEV",
+	ENOSYS:  "ENOSYS",
+	ESTALE:  "ESTALE",
+	ENOENT:  "ENOENT",
+	EIO:     "EIO",
+	EPERM:   "EPERM",
+	EINTR:   "EINTR",
+	EEXIST:  "EEXIST",
+	EXDEV:   "EXDEV",
+	ENOTDIR: "ENOTDIR",
 }
 
 // Errno implements Error and ErrorNumber using a syscall.Errno.
