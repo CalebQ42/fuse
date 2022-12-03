@@ -17,12 +17,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fs"
-	"github.com/seaweedfs/fuse/fs/fstestutil"
-	"github.com/seaweedfs/fuse/fs/fstestutil/record"
-	"github.com/seaweedfs/fuse/fuseutil"
-	"github.com/seaweedfs/fuse/syscallx"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fs"
+	"github.com/CalebQ42/fuse/fs/fstestutil"
+	"github.com/CalebQ42/fuse/fs/fstestutil/record"
+	"github.com/CalebQ42/fuse/fuseutil"
+	"github.com/CalebQ42/fuse/syscallx"
 )
 
 // TO TEST:

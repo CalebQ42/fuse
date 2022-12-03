@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/seaweedfs/fuse"
+	"github.com/CalebQ42/fuse"
 )
 
 type flagDebug bool

@@ -1,12 +1,12 @@
-package record // import "github.com/seaweedfs/fuse/fs/fstestutil/record"
+package record // import "github.com/CalebQ42/fuse/fs/fstestutil/record"
 
 import (
 	"context"
 	"sync"
 	"sync/atomic"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fs"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fs"
 )
 
 // Writes gathers data from FUSE Write calls.

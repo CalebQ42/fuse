@@ -8,9 +8,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fs"
-	_ "github.com/seaweedfs/fuse/fs/fstestutil"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fs"
+	_ "github.com/CalebQ42/fuse/fs/fstestutil"
 )
 
 func usage() {

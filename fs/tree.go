@@ -7,10 +7,8 @@ import (
 	"os"
 	pathpkg "path"
 	"strings"
-)
 
-import (
-	"github.com/seaweedfs/fuse"
+	"github.com/CalebQ42/fuse"
 )
 
 // A Tree implements a basic read-only directory tree for FUSE.

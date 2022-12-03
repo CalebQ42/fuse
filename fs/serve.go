@@ -1,6 +1,6 @@
 // FUSE service loop, for servers that wish to use it.
 
-package fs // import "github.com/seaweedfs/fuse/fs"
+package fs // import "github.com/CalebQ42/fuse/fs"
 
 import (
 	"bytes"
@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fuseutil"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fuseutil"
 	"golang.org/x/sys/unix"
 )
 

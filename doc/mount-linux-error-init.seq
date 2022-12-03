@@ -1,12 +1,12 @@
 seqdiag {
   app;
-  fuse [label="github.com/seaweedfs/fuse"];
+  fuse [label="github.com/CalebQ42/fuse"];
   fusermount3;
   kernel;
   mounts;
 
   app;
-  fuse [label="github.com/seaweedfs/fuse"];
+  fuse [label="github.com/CalebQ42/fuse"];
   fusermount3;
   kernel;
   mounts;

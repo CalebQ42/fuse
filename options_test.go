@@ -7,9 +7,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fs"
-	"github.com/seaweedfs/fuse/fs/fstestutil"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fs"
+	"github.com/CalebQ42/fuse/fs/fstestutil"
 )
 
 func init() {

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fs"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fs"
 )
 
 // Mount contains information about the mount for the test to use.

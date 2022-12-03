@@ -3,7 +3,7 @@ package fs_test
 import (
 	"testing"
 
-	"github.com/seaweedfs/fuse/fs/fstestutil"
+	"github.com/CalebQ42/fuse/fs/fstestutil"
 	"golang.org/x/sys/unix"
 )
 

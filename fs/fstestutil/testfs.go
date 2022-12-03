@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fs"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fs"
 )
 
 // SimpleFS is a trivial FS that just implements the Root method.

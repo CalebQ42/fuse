@@ -1,5 +1,6 @@
 // Test for adjustable timeout between a FUSE request and the daemon's response.
 //
+//go:build darwin || freebsd
 // +build darwin freebsd
 
 package fuse_test
@@ -12,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/seaweedfs/fuse"
-	"github.com/seaweedfs/fuse/fs"
-	"github.com/seaweedfs/fuse/fs/fstestutil"
+	"github.com/CalebQ42/fuse"
+	"github.com/CalebQ42/fuse/fs"
+	"github.com/CalebQ42/fuse/fs/fstestutil"
 )
 
 type slowCreaterDir struct {

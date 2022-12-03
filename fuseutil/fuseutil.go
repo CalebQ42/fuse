@@ -1,7 +1,7 @@
-package fuseutil // import "github.com/seaweedfs/fuse/fuseutil"
+package fuseutil // import "github.com/CalebQ42/fuse/fuseutil"
 
 import (
-	"github.com/seaweedfs/fuse"
+	"github.com/CalebQ42/fuse"
 )
 
 // HandleRead handles a read request assuming that data is the entire file content.
