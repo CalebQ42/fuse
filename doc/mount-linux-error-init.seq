@@ -1,23 +1,23 @@
 seqdiag {
   app;
   fuse [label="github.com/seaweedfs/fuse"];
-  fusermount;
+  fusermount3;
   kernel;
   mounts;
 
   app;
   fuse [label="github.com/seaweedfs/fuse"];
-  fusermount;
+  fusermount3;
   kernel;
   mounts;
 
   app -> fuse [label="Mount"];
-  fuse -> fusermount [label="spawn, pass socketpair fd"];
-  fusermount -> kernel [label="open /dev/fuse"];
-  fusermount -> kernel [label="mount(2)"];
+  fuse -> fusermount3 [label="spawn, pass socketpair fd"];
+  fusermount3 -> kernel [label="open /dev/fuse"];
+  fusermount3 -> kernel [label="mount(2)"];
   kernel ->> mounts [label="mount is visible"];
-  fusermount <-- kernel [label="mount(2) returns"];
-  fuse <<-- fusermount [diagonal, label="exit, receive /dev/fuse fd", leftnote="on Linux, successful exit here\nmeans the mount has happened,\nthough InitRequest might not have yet"];
+  fusermount3 <-- kernel [label="mount(2) returns"];
+  fuse <<-- fusermount3 [diagonal, label="exit, receive /dev/fuse fd", leftnote="on Linux, successful exit here\nmeans the mount has happened,\nthough InitRequest might not have yet"];
   app <-- fuse [label="Mount returns\nConn.Ready is already closed"];
 
   app -> fuse [label="fs.Serve"];
