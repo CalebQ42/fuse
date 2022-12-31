@@ -1,26 +1,5 @@
-github.com/CalebQ42/fuse -- Filesystems in Go
-===================================
+# Fuse Filesystems in Go
 
-This is a fork of http://bazil.org/fuse , for performance 
-and to merge all good pull requests.
+This is simple fork of <http://github.com/seaweedfs/fuse> (which is a fork of <http://bazil.org/fuse>) that uses fuse3 instead of fuse2.
 
-`github.com/CalebQ42/fuse` is a Go library for writing FUSE userspace
-filesystems.
-
-It is a from-scratch implementation of the kernel-userspace
-communication protocol, and does not use the C library from the
-project called FUSE. `github.com/CalebQ42/fuse` embraces Go fully for safety and
-ease of programming.
-
-Here’s how to get going:
-
-    go get github.com/CalebQ42/fuse
-
-Website: http://github.com/CalebQ42/fuse/
-
-Github repository: https://github.com/bazil/fuse
-
-API docs: http://godoc.org/github.com/CalebQ42/fuse
-
-Our thanks to Russ Cox for his fuse library, which this project is
-based on.
+This has only had very simple refactoring done to it so most things _should_ work, that being said I'm not exactly sure what has changed between fuse3 and fuse2 so some things may not work, or work as intended. I'm more then happy to try to fix any bugs or issues that arise, though they may take longer then normal to fix as I'm not familiar with the codebase.
